@@ -1,6 +1,6 @@
 #include <iostream> // cout
 #include "arit.h"   // para usar la funcion suma
-
+#include "string"
 using namespace std; // Para evitar el std::
 // clang++ -o main main.cpp arit.cpp
 // para correr ejecutar: ./main
@@ -13,6 +13,17 @@ int main(){
     cout << "La respuesta es: " << rpta << endl;
 
     cout << "La resta es: " << resta(x, y) << endl;
+
+    //Change the method of adition.
+     cout << "Deseas sumar un numero positivo?"<< endl;
+     string key = "";
+     cin >>key ;
+    if(key.compare("si")){
+        int x = 9 , y = 10;
+        cout << "La respuesta es: " << suma(x, y);
+    }
+
+
     return 0;
     //Fabricio estuvo aqui. Probando a.
 
