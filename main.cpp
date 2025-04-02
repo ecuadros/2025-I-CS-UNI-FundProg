@@ -22,7 +22,7 @@ int main(){
         int x = 9 , y = 10;
         cout << "La respuesta es: " << suma(x, y);
     }
-
+    //el profe va aumentar 3 veces el syllabus osea vamos a tener que estudiar mas ps xd v:
 
     return 0;
     //Fabricio estuvo aqui. Probando a.
