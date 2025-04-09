@@ -8,9 +8,11 @@ using namespace std; // Para evitar el std::
 int main(){
     cout << "Hola mundo desde Fund Prog 2025-I" << endl;
     cout << suma(54, 35) << endl;
-    int x = 6, y = 98;
+    int x = 65, y = 18;
     int rpta = suma(x, y);
     cout << "La respuesta es: " << rpta << endl;
+
+    cout << "La resta es: " << resta(x, y) << endl;
     return 0;
 }
 // otra vez massimo esta aqui.
