@@ -3,6 +3,7 @@
 #include "array.h"
 #include "struct.h"
 #include "recursion.h"
+#include "persona.h"    
 #include "sorting.h"
 using namespace std; // Para evitar el std::
 
@@ -20,7 +21,12 @@ int main(){
     // DemoArrays();
     // DemoStructs();
     // DemoRecursividad();
-    DemoSorting();
+    //DemoSorting();
+    Persona persona1("Fabricio",19); // Entregamos los datos al constructor y crea el objeto persona.
+    persona1.saludar();
+    //Pasan unos años y queremos hacer un get and setter del objeto.
+    persona1.setEdad(25);
+    cout <<"Nueva edad :" << persona1.getEdad()<< endl;
     return 0;
 }
 
