@@ -5,6 +5,6 @@
 
 #include <string>
 
-void invertirPalabra(char *palabra);
+void invertirPalabra(char* palabra);
 
 #endif                   
