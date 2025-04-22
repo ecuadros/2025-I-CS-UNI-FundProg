@@ -3,6 +3,7 @@
 #include "array.h"
 #include "struct.h"
 #include "recursion.h"
+#include "string.h"
 #include "sorting.h"
 using namespace std; // Para evitar el std::
 
@@ -15,12 +16,15 @@ using namespace std; // Para evitar el std::
 
 int main(){
     cout << "Fundamentos de Programación 2025-I" << endl;
+    char p[] = "hola";
+    invertir(p);
+    cout << p << endl;
     // DemoFunciones();
     // DemoParametros();
     // DemoArrays();
     // DemoStructs();
     // DemoRecursividad();
-    DemoSorting();
+    //DemoSorting();
     return 0;
 }
 
