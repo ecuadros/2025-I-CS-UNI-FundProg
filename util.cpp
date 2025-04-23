@@ -6,8 +6,10 @@ void intercambiar(int &a, int &b) {
     b = temp;
 }
 
-void intercambiar(char &a, char &b) {
-    char temp = a;
-    a = b;
-    b = temp;
-}
+
+void intercambiar(char* a, char* b) {
+    char temp = *a;
+    *a = *b;
+    *b = temp;
+}  
+// intercambiamos direcciones

@@ -23,8 +23,8 @@ int main(){
     // DemoStructs();
     // DemoRecursividad();
     // DemoSorting();
-    // DemoStrings();
-    DemoClasses();
+    DemoStrings();
+    // DemoClasses();
     return 0;
 }
 
