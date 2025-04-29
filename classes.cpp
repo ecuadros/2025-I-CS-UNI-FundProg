@@ -13,4 +13,6 @@ void DemoClasses(){
     persona1.setAge(25);
     cout <<"Nueva edad :" << persona1.getAge()<< endl;
     persona1.saludar();
+
+    coutarea();
 }
