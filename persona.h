@@ -21,4 +21,18 @@ public:
     string  getName();
 };
 
+class figura{
+    private:
+    int altura;
+    int base;
+
+    public:
+    void setaltura(int);
+    void setbase(int);
+    int getarea();
+
+};
+
+void coutarea();
+
 #endif
