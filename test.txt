@@ -1,0 +1,15 @@
+v[0]: hola
+v[1]: como
+v[2]: estas
+v[3]: hoy
+v[4]: dia
+v[0]: yo
+v[1]: estoy
+v[2]: muy
+v[3]: bien
+v[4]: hoy
+v[5]: dia
+v[6]: porque
+v[7]: me
+v[8]: gusta
+v[9]: C++
