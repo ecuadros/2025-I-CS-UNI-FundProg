@@ -2,15 +2,16 @@
 #define __PERSONA_H__
 
 #include <iostream>
-#include <strstream>
+#include <sstream>
 #include "../types.h"
 using namespace std;
 
-class Person{
+class Person
+{
 private:
-    NameType m_name      = "NoName";
-    DocType  m_DocType   = DocTypeNone;
-    string   m_Document  = "NoDocument";
+    NameType m_name = "NoName";
+    DocType m_DocType = DocTypeNone;
+    string m_Document = "NoDocument";
 
 public:
     // Constructor
@@ -35,23 +36,25 @@ public:
 
     // Metodos.
     // Funciones inline (pequeñas, sin bucles)
-    void        setName(const NameType name){  m_name = name;   }    
-    NameType    getName()                   {  return m_name;   }
-    void        setDocType(const DocType doctype)    {  m_DocType = doctype;        }
-    DocType     getDocType()                         {  return m_DocType;           }
-    void        setDocument(const string document)   {  m_Document = document;      }
-    string      getDocument()                        {  return m_Document;          }
+    void setName(const NameType name) { m_name = name; }
+    NameType getName() { return m_name; }
+    void setDocType(const DocType doctype) { m_DocType = doctype; }
+    DocType getDocType() { return m_DocType; }
+    void setDocument(const string document) { m_Document = document; }
+    string getDocument() { return m_Document; }
 
-    string      toString(){
-        ostrstream ostr;
-        ostr << " Name: "     << getName() 
-             << " DocType: "   << getDocType() 
+    string toString()
+    {
+        ostringstream ostr;
+        ostr << " Name: " << getName()
+             << " DocType: " << getDocType()
              << " Document: " << getDocument();
         return ostr.str();
     }
 };
 
-inline ostream &operator<<(ostream &os, Person &p){
+inline ostream &operator<<(ostream &os, Person &p)
+{
     return os << p.toString() << endl;
 }
 
