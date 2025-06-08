@@ -44,9 +44,9 @@ public:
 
     string      toString(){
         ostringstream ostr;
-        ostr << "\n Name: "     << getName()<<endl 
-             << " DocType: "  << getDocType()<<endl 
-             << " Document: " << getDocument()<<endl;
+        ostr << "\n Name: "     << getName()<<endl
+             << " DocType: "    << getDocType()<<endl 
+             << " Document: "   << getDocument()<<endl;
         return ostr.str();
     }
 };

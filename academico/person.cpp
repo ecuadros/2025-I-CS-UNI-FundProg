@@ -7,7 +7,7 @@ Person::Person(NameType name, DocType doctype, string document){
     setName(name);
     setDocType(doctype);
     setDocument(document);
-    cout << "*** Constructor (" << toString() << ");" << endl;
+    cout << "*** Constructor  (" << toString() << ");" << endl;
 }
 
 Person::Person()

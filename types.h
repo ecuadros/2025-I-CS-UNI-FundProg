@@ -4,17 +4,20 @@
 
 using namespace std;
 using NameType = string;
-enum DocType {
+enum DocType{
+
     DocTypeNone,
     DocTypeDNI, 
-    DocTypePassport
+    DocTypePassport,
 };
 
 using SalaryType = double;
 
+//types
 using ProfessionType = string;
 using CycleType    =   int;
 using CoursesType  =   string;
+using CodeType     =   string;
 
 using ContainerElemType = int;
 
