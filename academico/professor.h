@@ -1,9 +1,10 @@
 #ifndef __PROFESSOR_H__
 #define __PROFESSOR_H__
+#include <sstream>
 #include "person.h"
 
 class Professor : public Person{
-private:
+private:  
     SalaryType m_salary;
 public:
     Professor(NameType name, DocType doctype, string document, SalaryType salary);
@@ -13,11 +14,10 @@ public:
     SalaryType getSalary()             { return m_salary;     }
 
     string      toString(){
-        ostrstream ostr;
+        ostringstream ostr;
         ostr << Person::toString() 
              << " Salary: " << getSalary();
         return ostr.str();
     }
 };
-
-#endif // __PROFESSOR_H__
+#endif // __PROFESSOR_H__s

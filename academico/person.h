@@ -2,10 +2,10 @@
 #define __PERSONA_H__
 
 #include <iostream>
-#include <strstream>
+#include <sstream>  // Reemplazo moderno 
 #include "../types.h"
-using namespace std;
-
+using namespace std; 
+ 
 class Person{
 private:
     NameType m_name      = "NoName";
@@ -43,10 +43,10 @@ public:
     string      getDocument()                        {  return m_Document;          }
 
     string      toString(){
-        ostrstream ostr;
-        ostr << " Name: "     << getName() 
-             << " DocType: "   << getDocType() 
-             << " Document: " << getDocument();
+        ostringstream ostr;
+        ostr << "\n Name: "     << getName()<<endl
+             << " DocType: "    << getDocType()<<endl 
+             << " Document: "   << getDocument()<<endl;
         return ostr.str();
     }
 };
@@ -55,4 +55,4 @@ inline ostream &operator<<(ostream &os, Person &p){
     return os << p.toString() << endl;
 }
 
-#endif
+#endif //__PERSONA_H__
