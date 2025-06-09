@@ -10,7 +10,7 @@ UndergranStudent::UndergranStudent(NameType name, DocType doctype, string docume
     setCycle (cycle);
     setCourses(courses);
     setProfession(profession); 
-    
+     
         cout<<"Constructor UndergrandStudent ( "<< toString()<<");"<<endl;   
     
 }
