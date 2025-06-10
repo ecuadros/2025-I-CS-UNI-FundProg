@@ -2,7 +2,7 @@
 #define __PERSONA_H__
 
 #include <iostream>
-#include <strstream>
+#include <sstream> 
 #include "../types.h"
 using namespace std;
 
@@ -43,7 +43,7 @@ public:
     string      getDocument()                        {  return m_Document;          }
 
     string      toString(){
-        ostrstream ostr;
+        ostringstream ostr;
         ostr << " Name: "     << getName() 
              << " DocType: "   << getDocType() 
              << " Document: " << getDocument();

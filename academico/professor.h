@@ -13,7 +13,7 @@ public:
     SalaryType getSalary()             { return m_salary;     }
 
     string      toString(){
-        ostrstream ostr;
+        ostringstream ostr;
         ostr << Person::toString() 
              << " Salary: " << getSalary();
         return ostr.str();
