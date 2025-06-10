@@ -11,7 +11,7 @@ void DemoInheritance(){
 
     Professor prof ("Dr. Smith", DocTypeDNI, "987654321", 5000.0);
 
-    cout <<endl;
+    cout <<endl;    
 
     GradStudent gradStudent("Alice", DocTypePassport, "912345123", "Computer Science", "AI Research");
     
