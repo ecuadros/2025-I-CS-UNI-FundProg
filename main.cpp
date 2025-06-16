@@ -10,6 +10,7 @@
 #include "DemoComplex.h"
 #include "inheritance.h"
 #include "DemoTemplates.h"
+#include "bit.h"
 using namespace std; // Para evitar el std::
 
 // Para compilar con C++:
@@ -32,9 +33,11 @@ int main(){
     // DemoFunctionPointers();
     // DemoComplex();
     // DemoInheritance();
-    DemoTemplates1();
-    DemoTemplates2();
-    DemoVariadicTemplates();
+    //DemoTemplates1();
+   //DemoTemplates2();
+   //DemoVariadicTemplates();
+   Democambio();
+
     return 0;
 }
 
