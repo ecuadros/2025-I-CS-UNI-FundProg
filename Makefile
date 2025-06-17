@@ -6,6 +6,7 @@ TARGET = main
 SRCS = main.cpp arit.cpp demos.cpp array.cpp sorting.cpp \
        struct.cpp recursion.cpp mystring.cpp classes.cpp util.cpp \
 	   compareFunc.cpp FuncPointers.cpp DemoComplex.cpp \
+	   bits.cpp \
 	   inheritance.cpp \
 	   academico/person.cpp \
 	   academico/professor.cpp \

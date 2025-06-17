@@ -4,7 +4,8 @@
 
 using namespace std;
 using NameType = string;
-using DocType  = enum {DocTypeNone, DocTypePassport, DocTypeDNI, DocTypeCE};
+enum Docs{DocTypeNone, DocTypePassport, DocTypeDNI, DocTypeCE};
+using DocType  = Docs;
 
 using SalaryType = double;
 
