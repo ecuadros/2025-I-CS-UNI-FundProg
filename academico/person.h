@@ -49,7 +49,9 @@ public:
              << " Document: " << getDocument();
         return ostr.str();
     }
-    void TestMethod();
+    // Metodo virtual puro = 0
+    // Para crear un objeto de una clase heredada tengo que complletar esta clase
+    // virtual void TestMethod() = 0; 
 };
 
 inline ostream &operator<<(ostream &os, Person &p){

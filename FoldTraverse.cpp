@@ -5,7 +5,7 @@ using namespace std;
 
 //Variadic
 // traverse tree, using fold expression:
-template<typename T, typename ... TP>
+template<typename T, typename ... TP> 
 static Node* traversex (T np, TP ... paths)
 {
     return (np ->* ... ->* paths);      // np ->* paths1 ->* paths2 ->* paths3 ...

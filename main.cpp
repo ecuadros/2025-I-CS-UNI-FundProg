@@ -47,6 +47,22 @@ int main(){
     // DemoLambdaFunctions();
     // DemoSharedPtr();
     DemoFoldTraverse();
+
+    int m[5][3] = {{0}};
+    int x = 10;
+    m[0][0] = 7;
+    m[0][1] = 7;
+    m[0][2] = 7;
+    m[0][x] = 7;
+    for(int row = 0 ; row < 5 ; row++){
+        for(int col = 0 ; col < 3 ; col++)
+            cout << "m[" << row << "][" << col << "]=" << m[row][col] << " ";
+        cout << endl;
+    }
+
+    for(x = 0 ; x < 15 ; x++){
+        cout << "m[0][" << x << "]=" << m[0][x] << " ";
+    }
     return 0;
 }
 
